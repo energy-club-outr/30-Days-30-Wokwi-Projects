@@ -43,7 +43,8 @@ in a **simple and structured way**, without requiring any physical hardware.
 ## 2. [Arduino LED Blink](Arduino_LED_Blink_(Digital_Output_Example)/README.md) ✅
 
 ## 3. [Traffic Light System](Traffic_Light_System_using_Arduino/README.md) ✅
-4. Buzzer ON/OFF  
+## 4 . 🔔 [Buzzer Control Using Button (Series Connection)](Arduino_Buzzer_Control_Using_Button_(Series_Connection)/README.md) ✅
+
 5. LED brightness control  
 6. Push button counter  
 7. LDR based automatic light  
