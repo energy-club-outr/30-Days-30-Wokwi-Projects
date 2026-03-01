@@ -46,8 +46,8 @@ in a **simple and structured way**, without requiring any physical hardware.
 ## 4 .  [Buzzer Control Using Button (Series Connection)](Arduino_Buzzer_Control_Using_Button_(Series_Connection)/README.md) ✅
 ## 5 .  [LED Brightness Control Using Potentiometer](Arduino_LED_Brightness_Control_using_Potentiometer/README.md) ✅
 ## 6 .  [Push Button Counter](Push_Button_Counter_using_Arduino/README.md) ✅
+## 7 .  [LDR based automatic light](LDR_based_automatic_light/README.md) ✅
 
-7. LDR based automatic light  
 8. Temperature display (DHT11)  
 9. Distance measurement (Ultrasonic)  
 10. RGB LED control  
