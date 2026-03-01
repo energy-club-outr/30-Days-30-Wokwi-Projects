@@ -48,9 +48,10 @@ in a **simple and structured way**, without requiring any physical hardware.
 ## 6 .  [Push Button Counter](Push_Button_Counter_using_Arduino/README.md) ✅
 ## 7 .  [LDR based automatic light](LDR_based_automatic_light/README.md) ✅
 ## 8 .  [Temperature display (DHT22) ](Temperature_display_(DHT22)/README.md) ✅
+## 9 .  [Distance measurement (Ultrasonic)](Distance_measurement_(Ultrasonic)/README.md) ✅
  
  
-9. Distance measurement (Ultrasonic)  
+
 10. RGB LED control  
 
 ### ⚙️ Easy–Medium (Day 11–20)
