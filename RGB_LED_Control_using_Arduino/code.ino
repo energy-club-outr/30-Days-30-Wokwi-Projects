@@ -1,23 +1,55 @@
-#define ldrPin A0
-#define ledPin 7
-
-int ldrValue = 0;
-int threshold = 500;   // Adjust based on requirement
+#define redPin 9
+#define greenPin 10
+#define bluePin 11
 
 void setup() {
-  pinMode(ledPin, OUTPUT);
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);
   Serial.begin(9600);
 }
 
 void loop() {
-  ldrValue = analogRead(ldrPin);
-  Serial.println(ldrValue);
 
-  if (ldrValue < threshold) {
-    digitalWrite(ledPin, HIGH);  // Dark → LED ON
-  } else {
-    digitalWrite(ledPin, LOW);   // Bright → LED OFF
-  }
+  Serial.println("Color: RED");
+  analogWrite(redPin, 255);
+  analogWrite(greenPin, 0);
+  analogWrite(bluePin, 0);
+  delay(1000);
 
-  delay(200);
+  Serial.println("Color: GREEN");
+  analogWrite(redPin, 0);
+  analogWrite(greenPin, 255);
+  analogWrite(bluePin, 0);
+  delay(1000);
+
+  Serial.println("Color: BLUE");
+  analogWrite(redPin, 0);
+  analogWrite(greenPin, 0);
+  analogWrite(bluePin, 255);
+  delay(1000);
+
+  Serial.println("Color: YELLOW");
+  analogWrite(redPin, 255);
+  analogWrite(greenPin, 255);
+  analogWrite(bluePin, 0);
+  delay(1000);
+
+  Serial.println("Color: CYAN");
+  analogWrite(redPin, 0);
+  analogWrite(greenPin, 255);
+  analogWrite(bluePin, 255);
+  delay(1000);
+
+  Serial.println("Color: MAGENTA");
+  analogWrite(redPin, 255);
+  analogWrite(greenPin, 0);
+  analogWrite(bluePin, 255);
+  delay(1000);
+
+  Serial.println("Color: WHITE");
+  analogWrite(redPin, 255);
+  analogWrite(greenPin, 255);
+  analogWrite(bluePin, 255);
+  delay(1000);
 }

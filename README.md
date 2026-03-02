@@ -54,8 +54,9 @@ in a **simple and structured way**, without requiring any physical hardware.
 
 
 
-### ⚙️ Easy–Medium (Day 11–20)
-11. Temperature display on LCD  
+# ⚙️ Easy–Medium (Day 11–20)
+### 11 .  [Temperature display on LCD](Temperature_display_on_LCD/README.md) ✅
+
 12. LDR street light with LCD  
 13. Ultrasonic distance on LCD  
 14. Temperature alert system  
