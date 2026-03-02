@@ -37,22 +37,22 @@ in a **simple and structured way**, without requiring any physical hardware.
 
 ## 📅 Project Roadmap
 
-### 🔰 Beginner (Day 1–10)
-## 1. [LED ON/OFF using Button](Arduino_LED_Control_(Basic_Output_Example)/README.md) ✅
+# 🔰 Beginner (Day 1–10)
+### 1. [LED ON/OFF using Button](Arduino_LED_Control_(Basic_Output_Example)/README.md) ✅
 
-## 2. [Arduino LED Blink](Arduino_LED_Blink_(Digital_Output_Example)/README.md) ✅
+### 2. [Arduino LED Blink](Arduino_LED_Blink_(Digital_Output_Example)/README.md) ✅
 
-## 3. [Traffic Light System](Traffic_Light_System_using_Arduino/README.md) ✅
-## 4 .  [Buzzer Control Using Button (Series Connection)](Arduino_Buzzer_Control_Using_Button_(Series_Connection)/README.md) ✅
-## 5 .  [LED Brightness Control Using Potentiometer](Arduino_LED_Brightness_Control_using_Potentiometer/README.md) ✅
-## 6 .  [Push Button Counter](Push_Button_Counter_using_Arduino/README.md) ✅
-## 7 .  [LDR based automatic light](LDR_based_automatic_light/README.md) ✅
-## 8 .  [Temperature display (DHT22) ](Temperature_display_(DHT22)/README.md) ✅
-## 9 .  [Distance measurement (Ultrasonic)](Distance_measurement_(Ultrasonic)/README.md) ✅
+### 3. [Traffic Light System](Traffic_Light_System_using_Arduino/README.md) ✅
+### 4 .  [Buzzer Control Using Button (Series Connection)](Arduino_Buzzer_Control_Using_Button_(Series_Connection)/README.md) ✅
+### 5 .  [LED Brightness Control Using Potentiometer](Arduino_LED_Brightness_Control_using_Potentiometer/README.md) ✅
+### 6 .  [Push Button Counter](Push_Button_Counter_using_Arduino/README.md) ✅
+### 7 .  [LDR based automatic light](LDR_based_automatic_light/README.md) ✅
+### 8 .  [Temperature display (DHT22) ](Temperature_display_(DHT22)/README.md) ✅
+### 9 .  [Distance measurement (Ultrasonic)](Distance_measurement_(Ultrasonic)/README.md) ✅
+### 10 .  [RGB_LED_Control_using_Arduino](RGB_LED_Control_using_Arduino/README.md) ✅
  
- 
 
-10. RGB LED control  
+
 
 ### ⚙️ Easy–Medium (Day 11–20)
 11. Temperature display on LCD  
