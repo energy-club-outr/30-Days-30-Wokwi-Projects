@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 About This Repository
+## About This Repository
 
 This repository is a **30-day learning initiative** by **Energy Club OUTR** where  
 **one project is released each day** using **Wokwi simulation only**.
@@ -17,48 +17,48 @@ in a **simple and structured way**, without requiring any physical hardware.
 
 ---
 
-## 🎯 Learning Model
+##  Learning Model
 
-- 👨‍🏫 Projects are **added day by day by senior members**
-- 🧑‍🎓 Juniors are encouraged to **study, run, and understand** the projects
-- 💬 Any doubts should be asked using **GitHub Discussions**
-- ❌ Learners are not required to submit Pull Requests
-
----
-
-## 🧪 Simulation Rules
-
-- ✅ Only **Wokwi-supported components** are used
-- ❌ No external or custom components
-- ❌ No physical hardware required
-- 🔁 Sensor values may be simulated in software where needed
+-  Projects are **added day by day by senior members**
+-  Juniors are encouraged to **study, run, and understand** the projects
+-  Any doubts should be asked using **GitHub Discussions**
+-  Learners are not required to submit Pull Requests
 
 ---
 
-## 📅 Project Roadmap
+##  Simulation Rules
 
-### 🔰 Beginner (Day 1–10)
-#### 1. [LED ON/OFF using Button](Arduino_LED_Control_(Basic_Output_Example)/README.md) ✅
+-  Only **Wokwi-supported components** are used
+-  No external or custom components
+-  No physical hardware required
+-  Sensor values may be simulated in software where needed
 
-#### 2. [Arduino LED Blink](Arduino_LED_Blink_(Digital_Output_Example)/README.md) ✅
+---
 
-#### 3. [Traffic Light System](Traffic_Light_System_using_Arduino/README.md) ✅
-#### 4 .  [Buzzer Control Using Button (Series Connection)](Arduino_Buzzer_Control_Using_Button_(Series_Connection)/README.md) ✅
-#### 5 .  [LED Brightness Control Using Potentiometer](Arduino_LED_Brightness_Control_using_Potentiometer/README.md) ✅
-#### 6 .  [Push Button Counter](Push_Button_Counter_using_Arduino/README.md) ✅
-#### 7 .  [LDR based automatic light](LDR_based_automatic_light/README.md) ✅
-#### 8 .  [Temperature display (DHT22) ](Temperature_display_(DHT22)/README.md) ✅
-####  9 .  [Distance measurement (Ultrasonic)](Distance_measurement_(Ultrasonic)/README.md) ✅
-#### 10 .  [RGB_LED_Control_using_Arduino](RGB_LED_Control_using_Arduino/README.md) ✅
+##  Project Roadmap
+
+###  Beginner (Day 1–10)
+#### 1. [LED ON/OFF using Button](Arduino_LED_Control_(Basic_Output_Example)/README.md) 
+
+#### 2. [Arduino LED Blink](Arduino_LED_Blink_(Digital_Output_Example)/README.md) 
+
+#### 3. [Traffic Light System](Traffic_Light_System_using_Arduino/README.md) 
+#### 4 .  [Buzzer Control Using Button (Series Connection)](Arduino_Buzzer_Control_Using_Button_(Series_Connection)/README.md) 
+#### 5 .  [LED Brightness Control Using Potentiometer](Arduino_LED_Brightness_Control_using_Potentiometer/README.md) 
+#### 6 .  [Push Button Counter](Push_Button_Counter_using_Arduino/README.md) 
+#### 7 .  [LDR based automatic light](LDR_based_automatic_light/README.md) 
+#### 8 .  [Temperature display (DHT22) ](Temperature_display_(DHT22)/README.md) 
+####  9 .  [Distance measurement (Ultrasonic)](Distance_measurement_(Ultrasonic)/README.md) 
+#### 10 .  [RGB_LED_Control_using_Arduino](RGB_LED_Control_using_Arduino/README.md) 
  
 
 
 
-### ⚙️ Easy–Medium (Day 11–20)
-#### 11 .  [Temperature display on LCD](Temperature_display_on_LCD/README.md) ✅
+###  Easy–Medium (Day 11–20)
+#### 11 .  [Temperature display on LCD](Temperature_display_on_LCD/README.md) 
 
-12. LDR street light with LCD  
-#### 11 .  [Ultrasonic sesor distance on LCD]( Ultrasonic_Distance_Measurement_using_Arduino_and_I2C_LCD/README.md)✅
+#### 11 .  [LDR_Street_Light_with_Arduino_and_I2C_LCD]( LDR_Street_Light_with_Arduino_and_I2C_LCD/README.md)
+#### 11 .  [Ultrasonic sesor distance on LCD]( Ultrasonic_Distance_Measurement_using_Arduino_and_I2C_LCD/README.md)
 
 
 14. Temperature alert system  
@@ -69,8 +69,8 @@ in a **simple and structured way**, without requiring any physical hardware.
 19. Soil moisture simulation  
 20. Simple sensor dashboard  
 
-### 🚀 Medium (Day 21–30)
-#### 21 .  [ESP32 LED control](ESP32_LED_BLINK/README.md) ✅
+###  Medium (Day 21–30)
+#### 21 .  [ESP32 LED control](ESP32_LED_BLINK/README.md) 
 22. ESP32 temperature monitor  
 23. ESP32 WiFi status display  
 24. Temperature-based fan control  
@@ -83,7 +83,7 @@ in a **simple and structured way**, without requiring any physical hardware.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 Day-XX_Project-Name/
@@ -92,7 +92,7 @@ Day-XX_Project-Name/
 ├── circuit.png
 └── code.ino 
 ```
-## 🛠️ Components Used
+##  Components Used
 
 - ESP32 / Arduino Uno  
 - LED, RGB LED, Button, Buzzer  
@@ -102,7 +102,7 @@ Day-XX_Project-Name/
 - Potentiometer  
 - LCD / OLED  
 
-> ✅ All components used in this repository are fully supported by **Wokwi**.
+>  All components used in this repository are fully supported by **Wokwi**.
 
 ---
 
