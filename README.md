@@ -57,8 +57,8 @@ in a **simple and structured way**, without requiring any physical hardware.
 ###  Easy–Medium (Day 11–20)
 #### 11 .  [Temperature display on LCD](Temperature_display_on_LCD/README.md) 
 
-#### 11 .  [LDR_Street_Light_with_Arduino_and_I2C_LCD]( LDR_Street_Light_with_Arduino_and_I2C_LCD/README.md)
-#### 11 .  [Ultrasonic sesor distance on LCD]( Ultrasonic_Distance_Measurement_using_Arduino_and_I2C_LCD/README.md)
+#### 12 .  [LDR_Street_Light_with_Arduino_and_I2C_LCD]( LDR_Street_Light_with_Arduino_and_I2C_LCD/README.md)
+#### 13 .  [Ultrasonic sesor distance on LCD]( Ultrasonic_Distance_Measurement_using_Arduino_and_I2C_LCD/README.md)
 
 
 14. Temperature alert system  
