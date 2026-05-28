@@ -71,7 +71,8 @@ in a **simple and structured way**, without requiring any physical hardware.
 
 ###  Medium (Day 21–30)
 #### 21 .  [ESP32 LED control](ESP32_LED_BLINK/README.md) 
-22. ESP32 temperature monitor  
+#### 22 .  [EESP32_Temperature_and_Humidity_Monitor_using_DHT22](ESP32_Temperature_and_Humidity_Monitor_using_DHT22/README.md)  
+
 23. ESP32 WiFi status display  
 24. Temperature-based fan control  
 25. Automatic night lamp  
