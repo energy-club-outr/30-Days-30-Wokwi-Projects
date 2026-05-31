@@ -74,7 +74,7 @@ in a **simple and structured way**, without requiring any physical hardware.
 #### 22 .  [ESP32_Temperature_and_Humidity_Monitor_using_DHT22](ESP32_Temperature_and_Humidity_Monitor_using_DHT22/README.md)  
 #### 23 .  [ESP32_WiFi_Status_Display_on_OLED](ESP32_WiFi_Status_Display_on_OLED/README.md)  
 
-24. Temperature-based fan control  
+#### 24 .  [Temperature_Based_Relay_Control_Using_ESP32](Temperature_Based_Relay_Control_Using_ESP32/README.md) 
 25. Automatic night lamp  
 26. Simple home automation  
 27. Multi-sensor monitoring system  
