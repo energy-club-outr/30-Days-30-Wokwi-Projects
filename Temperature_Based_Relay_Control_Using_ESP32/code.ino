@@ -1,38 +1,41 @@
-#include <LiquidCrystal.h>
 #include <DHT.h>
 
-#define DHTPIN 2
+#define DHTPIN 15
 #define DHTTYPE DHT22
+#define RELAY_PIN 4
 
-LiquidCrystal lcd(7, 6, 5, 4, 3, 8);
 DHT dht(DHTPIN, DHTTYPE);
 
+float thresholdTemp = 30.0; // Temperature threshold
+
 void setup() {
-  lcd.begin(16, 2);
+  Serial.begin(115200);
+
   dht.begin();
+
+  pinMode(RELAY_PIN, OUTPUT);
+  digitalWrite(RELAY_PIN, LOW);
 }
 
 void loop() {
-  float temperature = dht.readTemperature();
-  float humidity = dht.readHumidity();
+  float temp = dht.readTemperature();
 
-  lcd.clear();
-
-  if (isnan(temperature) || isnan(humidity)) {
-    lcd.setCursor(0, 0);
-    lcd.print("Sensor Error");
+  if (isnan(temp)) {
+    Serial.println("Failed to read DHT22!");
     return;
   }
 
-  lcd.setCursor(0, 0);
-  lcd.print("Temp: ");
-  lcd.print(temperature);
-  lcd.print(" C");
+  Serial.print("Temperature: ");
+  Serial.print(temp);
+  Serial.println(" °C");
 
-  lcd.setCursor(0, 1);
-  lcd.print("Hum: ");
-  lcd.print(humidity);
-  lcd.print(" %");
+  if (temp > thresholdTemp) {
+    digitalWrite(RELAY_PIN, HIGH);
+    Serial.println("Relay ON");
+  } else {
+    digitalWrite(RELAY_PIN, LOW);
+    Serial.println("Relay OFF");
+  }
 
   delay(2000);
 }
