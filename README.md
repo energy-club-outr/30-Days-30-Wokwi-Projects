@@ -75,7 +75,7 @@ in a **simple and structured way**, without requiring any physical hardware.
 #### 23 .  [ESP32_WiFi_Status_Display_on_OLED](ESP32_WiFi_Status_Display_on_OLED/README.md)  
 
 #### 24 .  [Temperature_Based_Relay_Control_Using_ESP32](Temperature_Based_Relay_Control_Using_ESP32/README.md) 
-25. Automatic night lamp  
+#### 25 .  [Automatic_Night_Lamp_Using_ESP32](Automatic_Night_Lamp_Using_ESP32/README.md)
 26. Simple home automation  
 27. Multi-sensor monitoring system  
 28. ESP32 web page for sensor data  
