@@ -73,10 +73,9 @@ in a **simple and structured way**, without requiring any physical hardware.
 #### 21 .  [ESP32 LED control](ESP32_LED_BLINK/README.md) 
 #### 22 .  [ESP32_Temperature_and_Humidity_Monitor_using_DHT22](ESP32_Temperature_and_Humidity_Monitor_using_DHT22/README.md)  
 #### 23 .  [ESP32_WiFi_Status_Display_on_OLED](ESP32_WiFi_Status_Display_on_OLED/README.md)  
-
 #### 24 .  [Temperature_Based_Relay_Control_Using_ESP32](Temperature_Based_Relay_Control_Using_ESP32/README.md) 
 #### 25 .  [Automatic_Night_Lamp_Using_ESP32](Automatic_Night_Lamp_Using_ESP32/README.md)
-26. Simple home automation  
+#### 26 .  [Home_Automation_with_Blynk_Relays_and_DHT22](Home_Automation_with_Blynk_Relays_and_DHT22/README.md)
 27. Multi-sensor monitoring system  
 28. ESP32 web page for sensor data  
 29. Smart alert system  
